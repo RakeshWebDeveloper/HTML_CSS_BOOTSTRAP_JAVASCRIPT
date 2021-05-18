@@ -1,0 +1,143 @@
+.container-1{
+   background-color: #2b2e4a; 
+   padding-top: 13rem;
+   padding-bottom: 10rem;
+   color:aliceblue;
+   position: relative;
+   border-bottom-left-radius: 15rem ;
+   height: 600px;
+   z-index: -1;
+}
+
+.phone{
+    position: absolute;
+    right: 70px;
+    top: 130px;
+    transform: rotate(30deg);
+    z-index: -1;
+}
+
+.phone2{
+    position: absolute;
+    top: -140px;
+    right: 10px;
+    transform: rotate(-30deg)
+}
+
+.phone3{
+    position: absolute;
+    right: 70px;
+    top: 50px;
+}
+
+.phone4{
+    position: absolute;
+    left: 70px;
+    top: 130px;
+}
+
+.phone5{
+    position: absolute;
+    left: 70px;
+    bottom: -60px;
+    transform: rotate(30deg);
+}
+
+.phone6{
+    position: absolute;
+    right: 70px;
+    bottom: -60px;
+    transform: rotate(-30deg);
+}
+
+
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  body {
+    font-family: "Montserrat";
+    text-align: center;
+    background-color: antiquewhite;
+  }
+  
+  .navbar{
+      opacity: 0.6;
+  }
+  .container-2{
+      background-color: antiquewhite;
+      height: 300px;
+      padding: 4rem 8rem 2rem;
+      position: relative;
+  }
+
+  .container-3{
+    background-color: #2b2e4a !important; 
+    height: 500px;
+    padding: 2rem 8rem;
+    color:aliceblue;
+    border-bottom-left-radius: 15rem ;
+    border-top-right-radius: 15rem;
+    position: relative;
+    z-index: 1;
+}
+
+.container-4{
+    background-color: antiquewhite;
+    height: 500px;
+    padding: 2rem 8rem;
+    position: relative;
+}
+
+.container-5{
+    background-color: #2b2e4a;
+    height: 200px;
+    padding: 2rem 8rem;
+    position: relative;
+    z-index: 1;
+}
+
+.social-icon {
+    margin: 20px 10px;
+  }
+
+  p{
+      color: aliceblue;
+  }
+
+  @media (max-width: 1028px) {
+
+    .title {
+      text-align: center;
+      offset: 3;
+    }
+  
+    .phone {
+        display: none;
+    }
+
+    .container-1 {
+        height: fit-content;
+        border-bottom-left-radius: 0;
+    }
+
+    .phone6{
+        display: none;
+    }
+
+    .phone3{
+        position: absolute;
+        right: 0px;
+        top: 50px;
+    }
+    
+    .phone4{
+        position: absolute;
+        left: 0px;
+        top: 130px;
+    }
+    
+  }
